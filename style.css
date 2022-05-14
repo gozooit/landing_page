@@ -6,6 +6,11 @@ body {
     font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 button {
     padding: 8px 24px;
     margin-top: 8px;
@@ -29,6 +34,7 @@ button {
 }
 
 .header {
+    padding-top: 12px;
     display: flex;
     justify-content: space-evenly;
     background-color: #1f2937;
@@ -43,6 +49,7 @@ button {
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: bold;
 }
 
 .title {
@@ -75,7 +82,7 @@ button {
 }
 
 .intro-img {
-    height: 270px;
+    height: 250px;
 }
 
 .quote {
