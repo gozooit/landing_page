@@ -23,6 +23,18 @@ body {
     font-size: 24px;
 }
 
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 800px;
+}
+
 .header-right {
     display: flex;
     flex-direction: column;
@@ -38,24 +50,6 @@ body {
     font-size: 18px;
     color: #E5E7EB;
     justify-content: end;
-}
-
-.intro {
-    background-color: #1f2937;
-    display: flex;
-    justify-content: space-between;
-}
-
-.title {
-    color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.subtext {
-    font-size: 18px;
-    color: #E5E7EB;
-    max-width: 800px;
 }
 
 .intro-img {
