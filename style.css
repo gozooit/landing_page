@@ -58,12 +58,13 @@ button {
     font-size: 48px;
     font-weight: 800;
     padding-bottom: 8px;
+    max-width: 500px;
 }
 
 .subtext {
     font-size: 18px;
     color: #E5E7EB;
-    max-width: 800px;
+    max-width: 600px;
     padding-bottom: 8px;
 }
 
@@ -121,10 +122,34 @@ button {
 
 .description {
     text-align: center;
+    font-weight: lighter;
 }
 
 .quote {
+    display: flex;
+    color: #1F2937;
     background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 850px;
+    padding: 48px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    padding-bottom: 12px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
 }
 
 .footer {
