@@ -176,5 +176,13 @@ button {
 }
 
 .footer {
+    display: flex;
     background-color: #1f2937;
+    justify-content: center;
+}
+
+.footer-text {
+    color: white;
+    font-weight: 300;
+    padding: 48px;
 }
