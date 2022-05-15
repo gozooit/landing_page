@@ -35,7 +35,7 @@ button {
 
 .header {
     padding-top: 12px;
-    padding-bottom: 48px;
+    padding-bottom: 96px;
     display: flex;
     justify-content: space-evenly;
     background-color: #1f2937;
@@ -105,7 +105,7 @@ button {
 .cards {
     display: flex;
     gap: 78px;
-    padding-bottom: 48px;
+    padding-bottom: 96px;
 }
 
 .cards img {
@@ -135,7 +135,7 @@ button {
 
 .quote-container {
     max-width: 850px;
-    padding: 48px 0;
+    padding: 96px 0;
 }
 
 .quote-text {
