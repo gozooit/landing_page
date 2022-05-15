@@ -44,7 +44,7 @@ button {
 .header-left {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 96px;
     margin: 0 12px;
 }
 
@@ -72,7 +72,7 @@ button {
 .header-right {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 96px;
     margin: 0 12px;
 }
 
@@ -81,7 +81,7 @@ button {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    gap: 12px;
+    gap: 24px;
     font-size: 18px;
     color: #E5E7EB;
     justify-content: end;
@@ -95,6 +95,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
 }
 
 .information-title {
@@ -124,6 +125,7 @@ button {
 
 .description {
     text-align: center;
+    color: #1f2937;
     font-weight: lighter;
 }
 
@@ -157,6 +159,7 @@ button {
 .signup {
     display: flex;
     justify-content: center;
+    background-color: white;
     color: white;
     padding: 96px 0;
 }
